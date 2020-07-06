@@ -1,0 +1,26 @@
+.form{
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 50px;
+    width: 40%;
+    box-shadow: 0 0 7px 0px rgb(24, 150, 81);
+}
+.logo2{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+}
+
+#about{
+    color: rgb(107, 107, 107);
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+li#as{
+    color: rgb(107, 107, 107);
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+}

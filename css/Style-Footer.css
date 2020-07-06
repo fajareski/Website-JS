@@ -1,0 +1,65 @@
+/* footer */
+h1#caption{
+    color: #fff;
+    text-align: left;
+}
+p#ket{
+    margin: 0px 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+}
+
+th{
+    width: 10%;
+}
+
+th.logo{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+img#jp,#js,#bmui,#jm{
+    width: 50%;
+}
+
+section.footer2{
+    background-color: rgb(31, 161, 96);
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+h2#copy{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+section.footer{
+    background-color: rgb(192, 192, 192);
+    position: relative;
+    display: block;
+    width:100% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+footer.last{
+    height: 80px;
+    background-color: black;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+h1#caption{
+    margin-left: 10px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+}

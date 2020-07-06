@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/Style-register.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style-header.css">
+    <link rel="stylesheet" href="css/Style-Footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar1"> 
+        <img class="logo" src="image/logo-headerJS.png">
+        <a class="button1" href="HomePage.html">Close</a>
+    </div>
+    <nav class="navbar">
+        <center>
+            <div class="dropdown1">
+                <span><a id="tombol" href="HomePage.html">Home</a>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="tentangkami.html">Tentang Kami</a>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="produkkami.html">Produk Kami</a>
+                    <div class="dropdown-content1">
+                        <p ><a id="menu" href="#">Paket Kelas Online</a></p>
+                        <p ><a id="menu" href="#">Paket Kelas Tatap Muka</a></p>
+                        <p ><a id="menu" href="#">Paket Private Online</a></p>
+                        <p ><a id="menu" href="#">Paket Private Tatap Muka</a></p>
+                        <p ><a id="menu" href="#">Paket TryOut & E-book</a></p>
+                        <p ><a id="menu" href="#">Paket Mandiri</a></p>
+                    </div>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="jadwalbimbelkelastatapmuka.html">Jadwal Bimbel Kelas Tatap Muka</a>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="carapembelianpaketbelajar.html">Cara Pembelian Paket belajar</a>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="faq.html">FAQ</a>
+                </span>
+            </div>
+            <div class="dropdown1">
+                <span><a id="tombol" href="kontakkami.html">Kontak Kami</a></span>
+            </div>
+        </center>
+        </nav>
+    <form action="/action_page.php">
+        
+        <div class="container">
+            <h1>Buat Akun Siswa</h1>
+        </div>
+        <hr>
+            <div class="form">
+                <center>
+                <img id="profil" src="image/icon.png" alt="profil" style="width: 10%;">
+                <p>Clik tombol di atas untuk upload foto anda</p>
+                </center>
+
+                <label for="nama"><b>Nama</b></label>
+                <input type="text" placeholder="Nama Lengkap..." name="Nama" id="Nama" required>
+
+                <label for="nama"><b>Nama Panggilan</b></label>
+                <input type="text" placeholder="Nama Panggilan..." name="Nama" id="Nama" required>
+                
+                <label for="nama"><b>Email</b></label>
+                <input type="text" placeholder="Masukkan E-mail..." name="E-mail" id="E-mail" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Masukan Password...." id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <div id="message">
+                    <h3>Kata sandi harus seperti memiliki:</h3>
+                    <p id="letter" class="invalid"> Ada Huruf<b> kecil</b></p>
+                    <p id="capital" class="invalid"> Ada Huruf<b> Besar (Kapital)</b></p>
+                    <p id="number" class="invalid">Ada <b>Nomor</b></p>
+                    <p id="length" class="invalid">Minimal <b>8 kata</b></p>
+                  </div>
+                
+                <label for="nama"><b>Jenis Kelamin</b></label>
+                <select name="place" id="places">
+                    <option value="place1">...Pilih Jenis Kelamin...</option>
+                    <option value="place1">Pria</option>
+                    <option value="place2">Wanita</option>
+                    <option value="place3">Lainnya</option>
+                </select>
+                  
+
+                <label for="nama"><b>Nomor Telepon</b></label>
+                <input type="number" placeholder="Masukkan Nomor" name="No Hp" id="No Hp" required>
+                
+                <label for="nama"><b>Nomor Whatsapp</b></label>
+                <input type="number" placeholder="Masukkan Nomor" name="No Hp" id="No Hp" required>
+
+                <label for="nama"><b>Provinsi</b></label>
+                <select name="place" id="places">
+                    <option value="place1">...Pilih Provinsi...</option>
+                </select>
+
+                <label for="nama"><b>Kota / Kabupaten</b></label>
+                <select name="place" id="places">
+                    <option value="place1">...Pilih Kota / Kabupaten...</option>
+                </select>
+
+                <label for="nama"><b>Kecamatan</b></label>
+                <select name="place" id="places">
+                    <option value="place1">...Pilih Kecamatan...</option>
+                </select>
+                <label for="nama"><b>Alamat Lengkap</b></label>
+                <textarea placeholder="Masukan Alamat Lengkap" name="Alamat" id="Alamat" cols="30" rows="10"></textarea>
+        <hr>
+        <label>
+        <input type="checkbox" checked="checked" name="setuju">Saya telah membaca, mengerti, memahami, dan setuju peraturan Jelajah Studies <a href="#">[Syarat & Ketentuan]</a>
+        </label>
+    
+            <button type="submit" class="registerbtn"><a id="button" href="masuk.html">Buat Akun</a></button>
+            </div>  
+            <div class="container signin">
+            <p id="sudah"> Sudah punya Akun? <a href="login.html">Masuk</a>.</p>
+            </div>
+            </form>
+
+
+                    <section class="footer2">
+                        <table>
+                            <tr>
+                                <th id="Alamat1" >
+                                    <h1 id="caption" >Jelajah Studies</h1>
+                                    <p id="ket"> Alamat : GF2 Atlanta Apartemen
+                                        Jln. Margondaraya no. 28, Depok</p>
+                                </th>
+                                <center>
+                                <th class="logo">
+                                    <img id="jp" src="image/logo/logo 1.png" alt="logo JP">
+                                </th>
+                                <th class="logo">
+                                    <img id="js" src="image/logo/logo 2.png" alt="logo Js" style="width: 60%;">
+                                </th>
+                                <th class="logo">
+                                    <img id="bmui" src="image/logo/logo 3.png" alt="logo bmui" style="width: 60%;">
+                                </th>
+                                <th class="logo">
+                                    <img id="jm" src="image/logo/logo 4.png" alt="logo Jm" style="width: 70%;">
+                                </th>
+                                </center>
+                                <th>
+                                    <h1 id="caption">Kontak Pelayanan</h1>
+                                    <p id="ket">085284877333, 0817842419</p>
+                                </th>
+                            </tr>
+                        </table>
+                        <footer class="last">
+                            <h2 id="copy">copyright @Jelajah 2020</h2>
+                        </footer>
+                    </section>
+
+            
+
+
+              <script>
+                var myInput = document.getElementById("psw");
+                var letter = document.getElementById("letter");
+                var capital = document.getElementById("capital");
+                var number = document.getElementById("number");
+                var length = document.getElementById("length");
+                
+                // When the user clicks on the password field, show the message box
+                myInput.onfocus = function() {
+                  document.getElementById("message").style.display = "block";
+                }
+                
+                // When the user clicks outside of the password field, hide the message box
+                myInput.onblur = function() {
+                  document.getElementById("message").style.display = "none";
+                }
+                
+                // When the user starts to type something inside the password field
+                myInput.onkeyup = function() {
+                  // Validate lowercase letters
+                  var lowerCaseLetters = /[a-z]/g;
+                  if(myInput.value.match(lowerCaseLetters)) {  
+                    letter.classList.remove("invalid");
+                    letter.classList.add("valid");
+                  } else {
+                    letter.classList.remove("valid");
+                    letter.classList.add("invalid");
+                  }
+                  
+                  // Validate capital letters
+                  var upperCaseLetters = /[A-Z]/g;
+                  if(myInput.value.match(upperCaseLetters)) {  
+                    capital.classList.remove("invalid");
+                    capital.classList.add("valid");
+                  } else {
+                    capital.classList.remove("valid");
+                    capital.classList.add("invalid");
+                  }
+                
+                  // Validate numbers
+                  var numbers = /[0-9]/g;
+                  if(myInput.value.match(numbers)) {  
+                    number.classList.remove("invalid");
+                    number.classList.add("valid");
+                  } else {
+                    number.classList.remove("valid");
+                    number.classList.add("invalid");
+                  }
+                  
+                  // Validate length
+                  if(myInput.value.length >= 8) {
+                    length.classList.remove("invalid");
+                    length.classList.add("valid");
+                  } else {
+                    length.classList.remove("valid");
+                    length.classList.add("invalid");
+                  }
+                }
+                </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.card{
+    position: relative;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.card .content {
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.card .sliderText {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.card .sliderText h3{
+    color: #fff;
+    font-size: 3em;
+}
